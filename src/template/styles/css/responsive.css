@@ -1,6 +1,241 @@
+@media screen and (max-width: 1500px) {
+  .case {
+    width: 1370px; }
+  .methods {
+    padding-bottom: 30px; }
+    .methods__list {
+      width: 100%; }
+      .methods__list-group {
+        width: 748px; }
+    .methods__item {
+      margin-bottom: 30px; }
+      .methods__item_large {
+        min-height: 580px;
+        width: -webkit-calc(100% - 748px - 40px);
+        width: calc(100% - 748px - 40px); } }
+
+@media screen and (max-width: 1400px) {
+  body {
+    font-size: 16px; }
+  .case {
+    width: 1170px; }
+  .title {
+    font-size: 34px;
+    line-height: 40px; }
+  .slider__list .slick-dots {
+    bottom: 45px; }
+  .slider__item {
+    min-height: 650px; }
+  .slider__title {
+    font-size: 42px;
+    line-height: 48px; }
+    .slider__title:after {
+      margin-top: 15px;
+      margin-bottom: 15px; }
+  .slider__wrap {
+    margin-top: 0; }
+  .for {
+    margin-top: 0;
+    padding-top: 35px;
+    padding-bottom: 10px; }
+    .for__nav {
+      width: 480px;
+      margin-bottom: 40px; }
+      .for__nav li {
+        font-size: 20px; }
+      .for__nav a {
+        height: 48px; }
+    .for__list {
+      -webkit-box-pack: start !important;
+      -webkit-justify-content: flex-start !important;
+          -ms-flex-pack: start !important;
+              justify-content: flex-start !important; }
+    .for__item {
+      padding-right: 10px;
+      margin-bottom: 20px; }
+      .for__item br {
+        display: none; }
+    .for__subtitle {
+      font-size: 20px;
+      line-height: 24px; }
+    .for__text {
+      font-size: 16px;
+      line-height: 20px; }
+  .consult {
+    padding: 25px 30px 30px; }
+    .consult__desc {
+      margin-bottom: 50px; }
+    .consult__input {
+      width: 205px; }
+  .terms {
+    margin-top: 45px;
+    padding-bottom: 5px; }
+    .terms__title {
+      margin-bottom: 30px; }
+    .terms__item {
+      width: 50%;
+      margin-bottom: 25px;
+      padding-right: 10px; }
+    .terms__subtitle {
+      max-width: 100%;
+      min-height: 1px;
+      margin-bottom: 10px; }
+      .terms__subtitle:after {
+        margin-top: 10px; }
+    .terms__text {
+      max-width: 100%; }
+  .methods {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin-bottom: 40px; }
+    .methods__title {
+      margin-bottom: 30px; }
+  .about {
+    padding-bottom: 35px; }
+    .about__title {
+      margin-bottom: 35px; }
+    .about__text {
+      padding-left: 0;
+      padding-right: 50px;
+      width: 670px; }
+    .about__img {
+      width: -webkit-calc(100% - 670px);
+      width: calc(100% - 670px);
+      font-size: 24px;
+      height: 315px;
+      padding-left: 20px;
+      padding-right: 20px;
+      line-height: 38px;
+      text-transform: uppercase; }
+      .about__img-title {
+        font-size: 30px; }
+      .about__img-desc {
+        font-size: 26px; }
+  .reviews {
+    padding-top: 40px;
+    padding-bottom: 35px; }
+    .reviews__desc {
+      margin-bottom: 30px; }
+    .reviews__text {
+      font-size: 24px;
+      line-height: 30px; }
+    .reviews__list {
+      padding-left: 0;
+      padding-right: 0;
+      margin-bottom: 30px; }
+    .reviews__name {
+      margin-top: 15px; }
+    .reviews__counts-num, .reviews__counts-sum {
+      width: 50px;
+      font-size: 40px; }
+    .reviews__arrows .slick-prev {
+      margin-right: 60px; }
+    .reviews__arrows .slick-next {
+      margin-left: 60px; }
+  .appreciate {
+    margin-top: 40px; }
+    .appreciate__title {
+      margin-bottom: 35px; }
+    .appreciate__list {
+      margin-left: -10px;
+      margin-right: -10px; }
+    .appreciate__item {
+      width: -webkit-calc(25% - 20px);
+      width: calc(25% - 20px);
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-right: 20px;
+      padding-top: 10px;
+      margin-bottom: 20px; }
+  .steps {
+    padding-bottom: 35px; }
+    .steps__title {
+      margin-bottom: 20px; }
+    .steps__desc {
+      margin-bottom: 40px; }
+    .steps__control {
+      padding-left: 0;
+      width: 80px;
+      margin-left: auto; }
+    .steps__list {
+      overflow: hidden; }
+      .steps__list .slick-slide {
+        width: 1140px; }
+    .steps__item {
+      padding-left: 120px; }
+    .steps__count {
+      width: 120px;
+      font-size: 220px;
+      line-height: 170px;
+      text-align: left; }
+    .steps__col {
+      padding-left: 0;
+      padding-right: 20px; }
+  .test .case {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  .test__title {
+    margin-bottom: 35px; }
+  .footer {
+    margin-top: 0;
+    padding-top: 35px; }
+    .footer__title {
+      margin-bottom: 30px; }
+    .footer__text {
+      margin-bottom: 30px; }
+  .map {
+    margin-top: 40px;
+    height: 400px; } }
+
 @media screen and (max-width: 1199px) {
   .case {
     width: 950px; }
+  .panel__breadcrumbs {
+    padding-top: 15px; }
+  .panel__nav li {
+    margin-left: 15px;
+    margin-right: 15px; }
+  .slider__item {
+    min-height: 500px; }
+  .slider__wrap {
+    margin-top: 20px; }
+  .for__item {
+    width: 50%; }
+  .consult__input {
+    margin-left: 10px;
+    margin-right: 10px; }
+  .consult__input, .consult__btn {
+    width: 190px; }
+  .consult__btn {
+    margin-left: 10px; }
+  .methods__list-group {
+    width: 600px; }
+  .methods__item {
+    width: 280px; }
+  .methods__subtitle {
+    font-size: 18px;
+    line-height: 20px; }
+  .about__text {
+    width: 100%;
+    padding-right: 0; }
+  .about__img {
+    display: none; }
+  .appreciate__item {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .appreciate__text {
+    font-size: 16px;
+    line-height: 21px; }
+  .steps__list .slick-slide {
+    width: 920px;
+    margin-right: 0; }
+  .terms__subtitle {
+    font-size: 20px;
+    line-height: 24px; }
+  .footer {
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0; }
   .hidden-lg {
     display: block; }
   .hidden-md {
@@ -12,7 +247,51 @@
   .hidden-md {
     display: block; }
   .hidden-sm {
-    display: none; } }
+    display: none; }
+  .panel__nav {
+    margin-bottom: 10px;
+    margin-right: 0; }
+    .panel__nav li {
+      margin-left: 10px;
+      margin-right: 10px; }
+      .panel__nav li:last-of-type {
+        margin-right: 0; }
+    .panel__nav-wrap {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+  .panel__btn {
+    margin-left: auto; }
+  .consult {
+    padding-left: 0;
+    padding-right: 0; }
+    .consult__input, .consult__btn {
+      width: 150px; }
+  .input__wrap {
+    padding-bottom: 5px; }
+  .methods__list-group {
+    width: 100%; }
+  .methods__item {
+    width: 100%;
+    min-height: 1px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 15px 10px 20px; }
+  .methods__icon {
+    margin-bottom: 10px; }
+  .appreciate__item {
+    width: -webkit-calc(50% - 20px);
+    width: calc(50% - 20px); }
+  .steps__list .slick-slide {
+    width: 720px; }
+  .steps__head {
+    font-size: 20px;
+    line-height: 26px;
+    height: 46px; }
+  .steps__control {
+    margin-bottom: -38px; } }
 
 @media screen and (max-width: 767px) {
   .case {
@@ -20,4 +299,134 @@
   .hidden-sm {
     display: block; }
   .hidden-xs {
-    display: none; } }
+    display: none; }
+  .title {
+    font-size: 28px;
+    line-height: 32px; }
+  .panel {
+    position: absolute;
+    padding-bottom: 2px; }
+    .panel .case {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+    .panel__breadcrumbs {
+      display: none; }
+    .panel__nav {
+      text-align: center;
+      margin-top: 12px; }
+      .panel__nav-wrap {
+        margin-left: auto;
+        margin-right: auto;
+        width: auto; }
+      .panel__nav li {
+        width: 100%;
+        margin-bottom: 5px;
+        margin-left: 0;
+        margin-right: 0; }
+        .panel__nav li:last-of-type {
+          margin-bottom: 0; }
+  .slider__list .slick-dots {
+    bottom: 25px; }
+  .slider__item {
+    padding-top: 195px;
+    padding-bottom: 60px;
+    min-height: 1px; }
+  .slider__wrap {
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .slider__title {
+    font-size: 32px;
+    line-height: 36px; }
+  .slider__text {
+    font-size: 18px;
+    line-height: 22px; }
+  .for {
+    margin-bottom: 40px; }
+    .for__nav {
+      width: 100%; }
+      .for__nav li {
+        width: 100%; }
+    .for__item {
+      width: 100%; }
+    .for__subtitle:after {
+      margin-top: 5px;
+      margin-bottom: 8px; }
+  .consult__desc {
+    margin-bottom: 30px; }
+  .consult__input, .consult__btn {
+    width: 100%; }
+  .consult__input {
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px; }
+  .consult__btn {
+    margin-left: 15px;
+    margin-right: 15px; }
+  .terms__item {
+    width: 100%; }
+  .methods {
+    padding-bottom: 30px; }
+    .methods__item {
+      margin-bottom: 20px; }
+      .methods__item:last-of-type {
+        margin-bottom: 0; }
+    .methods__text {
+      margin-bottom: 10px; }
+      .methods__text:last-of-type {
+        margin-bottom: 0; }
+  .about {
+    padding-bottom: 15px; }
+  .reviews__text {
+    font-size: 18px;
+    line-height: 21px; }
+  .appreciate__item {
+    width: 100%;
+    min-height: 1px;
+    padding-bottom: 15px; }
+  .steps__count {
+    font-size: 50px;
+    opacity: 1;
+    margin-top: -63px; }
+  .steps__item {
+    padding-left: 0; }
+  .steps__desc {
+    margin-bottom: 15px; }
+  .steps__control {
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-bottom: 25px; }
+  .steps__head {
+    line-height: 20px;
+    padding-left: 38px; }
+  .steps__body {
+    margin-top: 14px; }
+  .steps__col {
+    padding-right: 8px; }
+    .steps__col:last-of-type {
+      padding-right: 0; }
+    .steps__col-text {
+      font-size: 13px;
+      line-height: 16px; }
+      .steps__col-text p {
+        margin-bottom: 12px; }
+        .steps__col-text p:last-of-type {
+          margin-bottom: 0; }
+  .test .case {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .test__title {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px; }
+  .map {
+    height: 300px; } }

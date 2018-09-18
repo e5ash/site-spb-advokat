@@ -1,0 +1,18 @@
+@font-face
+  font-family: 'Spectral'
+  src: local('Spectral Regular'), local('Spectral-Regular'), url('Spectralregular.woff2') format('woff2'), url('Spectralregular.woff') format('woff'), url('Spectralregular.ttf') format('truetype')
+  font-weight: 400
+  font-style: normal
+
+@font-face
+  font-family: 'Spectral'
+  src: local('Spectral Italic'), local('Spectral-Italic'), url('Spectralitalic.woff2') format('woff2'), url('Spectralitalic.woff') format('woff'), url('Spectralitalic.ttf') format('truetype')
+  font-weight: 400
+  font-style: italic
+
+@font-face
+  font-family: 'Spectral'
+  src: local('Spectral Medium'), local('Spectral-Medium'), url('Spectralmedium.woff2') format('woff2'), url('Spectralmedium.woff') format('woff'), url('Spectralmedium.ttf') format('truetype')
+  font-weight: 500
+  font-style: normal
+
